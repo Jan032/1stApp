@@ -1,0 +1,81 @@
+h1 {
+    color:Black;
+}
+h2{
+    color:Black;
+}
+body{
+    background-color:DarkKhaki
+}
+p{
+    color:Black;
+}
+.button{
+    color:grey;
+    background-color:black;
+    border:double black;
+    border-radius: 5px;
+}
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+input{
+    background-color:black;
+    border:double black;
+    border-style:insert;
+    border-radius: 5px;
+    color:grey;
+}
+::placeholder{
+    color:grey;
+}
+.black{
+    color:black;
+}
+.arial {
+    font-family:Sans-serif
+}
+.card{
+    display: flex;
+    width: 300px;
+    height: 400px;
+    background: url("JanFejkBukspremenjeno.jpg") no-repeat;
+    border: double black;
+    margin-right:20px;
+}
+.card:hover {
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    background: url("trollfacepng.png") no-repeat;
+    background-color: black;
+    border: double black;
+}
+.category strong{
+    text-decoration: underline;
+}
+.container{
+    display:flex;
+    margin-right:50px;
+}
+.container1{
+    display:flex-space-between
+}
+
+.hr{
+    color:black;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid black /* Green */
+  transition-duration: 0.4s;
+}
+
+.button1:hover {
+  background-color: black; /* Green */
+  color: black;
+}
